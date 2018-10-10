@@ -16,7 +16,7 @@
 }
 ```
 - token --  токен из авторизации
-- interface -- unit || hp || verny
+- interface -- unit || hp || verny || response
 - toAdress -- Ключ получателя в системе ServiceChain !!! не равен ID клиента в личном кабинете для предотвращения инъекций
 
 - data.id -- ID заявки в системе отправителя
