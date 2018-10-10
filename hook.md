@@ -1,6 +1,6 @@
 # Hook
 
-[POST] https://bus.servicechain.ru/webhook
+[POST] https://bus.servicechain.ru/hook
 
 ```
 {
