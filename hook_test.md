@@ -25,3 +25,9 @@ curl -XPOST\
     https://servicechain.ru/hook
 ```
 
+## Response
+look like:
+```
+{"ReqId":386545,"warning":"UpdateSC: ServiceCall not updated (may be equals)"}
+```
+
