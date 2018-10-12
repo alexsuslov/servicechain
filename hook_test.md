@@ -28,13 +28,22 @@ curl -XPOST\
 ## Response
 look like:
 ```
-{"ReqId":386545,"warning":"UpdateSC: ServiceCall not updated (may be equals)"}
+{
+  "ReqId": 386545,
+  "warning": "UpdateSC: ServiceCall not updated (may be equals)"
+}
 ```
 
 "status": "1",
 
 ```
-{"oldReqStatusExternal":"Отклонено","ReqId":386545,"281526732523427":"Выполнено","newReqStatusExternal":"Принят","281537387955975":"Отклонено"}
+{
+  "281526732523427": "Выполнено",
+  "281537387955975": "Отклонено",
+  "ReqId": 386545,
+  "newReqStatusExternal": "Принят",
+  "oldReqStatusExternal": "Отклонено"
+}
 
 ```
 
