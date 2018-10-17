@@ -1,26 +1,26 @@
 ## [create] sc -> unit
 
-HP | NAS| comments
+HP | НАС| comments
 --|--|--
-ExternalId | string (ReqId) |
-CI.Sticker | Sticker
-OperationClassification2TicketType(sc.OperationClassification) | TicketType
-Description | Comment | 
-Impact | Criticality |
-User.Name | ContactPerson
-User.Phone | Phone
-User.Address.Street | Address | 
-Information | TicketContents | 
+ExternalId | string (ReqId) | Номер заявки (HP) 
+CI.Sticker | Sticker | Номер наклейки
+OperationClassification | TicketType | Операция
+User.Name | PointCode | Код точки
+Description | Comment | Описание
+Impact | Criticality | Влияние
+User.Name | ContactPerson | Контактное лицо
+User.Phone | Phone | Контактный телефон заявителя
+User.Address.Street | Address | Адрес
+Information | TicketContents | Доп.Информация
 
 
 ## [update] sc -> unit
 
 HP | NAS| comments
 --|--|--
-Description | Comment | 
-Impact | Criticality |
-User.Name | ContactPerson
-User.Phone | Phone
-User.Address.Street | Address | 
-Information | TicketContents | 
-
+Description | Comment | Описание
+Impact | Criticality | Влияние
+User.Name | ContactPerson | Контактное лицо
+User.Phone | Phone | Контактный телефон заявителя
+User.Address.Street | Address | Адрес
+Information | TicketContents | Доп.Информация
