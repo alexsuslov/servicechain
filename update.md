@@ -22,3 +22,20 @@ HP | NAS| comments
 Comment | Comment | Описание
 ExtId | TicketId | unitTuketId
 chain | chain | ссылка на звено цепочки
+
+## [hook] unit -> sc
+
+```
+{
+    token: ""
+    тo : ""
+    Interface : ""
+    data :{
+        chain:""
+        number: ""
+        extId: ""
+        Status: ""
+        Response: ""
+    }
+}
+```
