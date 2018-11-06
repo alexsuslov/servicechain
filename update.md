@@ -12,15 +12,13 @@ User.Name | ContactPerson | Контактное лицо
 User.Phone | Phone | Контактный телефон заявителя
 User.Address.Street | Address | Адрес
 Information | TicketContents | Доп.Информация
+chain | chain | ссылка на звено цепочки
 
 
 ## [update] sc -> unit
 
 HP | NAS| comments
 --|--|--
-Description | Comment | Описание
-Impact | Criticality | Влияние
-User.Name | ContactPerson | Контактное лицо
-User.Phone | Phone | Контактный телефон заявителя
-User.Address.Street | Address | Адрес
-Information | TicketContents | Доп.Информация
+Comment | Comment | Описание
+ExtId | TicketId | unitTuketId
+chain | chain | ссылка на звено цепочки
