@@ -1,6 +1,6 @@
 # Hook
 
-[POST] https://servicechain.ru/hook
+[POST] https://call.servicechain.ru/hook
 
 ```
 {
