@@ -4,24 +4,25 @@
 
 ```
 {
-  "token":"${authToken}",
-  "interface": "${unit}",
-  "to": "${toAdress}",
+  "token":"token",
+  "interface": "Name",
+  "to": "client1",
+  "from": "client",
   "data": {
-    "id":"${FromId}", 
-    "extId": "${ToID}", 
+    "id":"ID", 
+    "extId": "ExtId",
     "status":"${Status}", 
     "response": "${реплика}"
-    "chain": "${ссылка на цепочку}"
+    "chain": "chain"
    }
 }
 ```
 - token --  токен из авторизации
-- interface -- unit || hp || verny || response
+- interface -- 
 - toAdress -- Ключ получателя в системе ServiceChain !!! не равен ID клиента в личном кабинете для предотвращения инъекций
 
 - data.id -- ID заявки в системе отправителя
 - data.extId -- ID заявки в системе получателя
 - data.status -- статус в системе отправителя
 - data.response -- реплика, данные дабавляются в ленту
-- data.chain -- ссылка на цепочку
+- data.chain -- chain hash
