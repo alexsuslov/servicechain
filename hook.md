@@ -14,6 +14,7 @@
     "status":"${Status}", 
     "response": "${реплика}"
     "chain": "chain"
+    "file": "<url>"
    }
 }
 ```
@@ -26,3 +27,4 @@
 - data.status -- статус в системе отправителя
 - data.response -- реплика, данные дабавляются в ленту
 - data.chain -- chain hash
+- data.file -- ссылка на файл
